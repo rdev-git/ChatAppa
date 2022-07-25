@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button_selector_background.xml" value="0.3398148148148148" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_chevron_right_24.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_local_fire_department_24.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/list_form_item.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/radius_button.xml" value="0.3398148148148148" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/spinner_background.xml" value="0.17685185185185184" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_main_plug.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/activity_user_poll.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_web.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_four_user_poll.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/fragment_list_form.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_policy.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/layout/fragment_questionnaires.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_report.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_soon.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/fragment_three_user_poll.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_two_user_poll.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_user_poll.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/list_form_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/my_push.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/policy.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/questionnaires_item.xml" value="0.27445652173913043" />
+        <entry key="app/src/main/res/layout/terms.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/menu/interested_menu.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2609375" />
+        <entry key="app/src/main/res/xml/provider_paths.xml" value="0.1703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/questionnaires"
+    app:startDestination="@id/questionnairesFragment">
+
+    <fragment
+        android:id="@+id/questionnairesFragment"
+        android:name="com.free.fast.date.flirt.meeting.app.plug.ui.questionnaires.QuestionnairesFragment"
+        android:label="Questionnaires"
+        tools:layout="@layout/fragment_questionnaires" >
+        <action
+            android:id="@+id/action_questionnairesFragment_to_detailFragment2"
+            app:destination="@id/detailFragment2" />
+        <action
+            android:id="@+id/action_questionnairesFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment2"
+        android:name="com.free.fast.date.flirt.meeting.app.plug.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.free.fast.date.flirt.meeting.app.plug.ui.questionnaires.ReportFragment"
+        android:label="ReportFragment" />
+</navigation>

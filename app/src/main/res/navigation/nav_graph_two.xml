@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_two"
+    app:startDestination="@id/userPollFragment2">
+
+    <fragment
+        android:id="@+id/twoUserPollFragment"
+        android:name="com.free.fast.date.flirt.meeting.app.user_poll.TwoUserPollFragment"
+        android:label="TwoUserPollFragment" >
+        <action
+            android:id="@+id/action_twoUserPollFragment_to_threeUserPollFragment"
+            app:destination="@id/threeUserPollFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userPollFragment2"
+        android:name="com.free.fast.date.flirt.meeting.app.user_poll.UserPollFragment"
+        android:label="fragment_two_user_poll"
+        tools:layout="@layout/fragment_two_user_poll" >
+        <action
+            android:id="@+id/action_userPollFragment2_to_twoUserPollFragment"
+            app:destination="@id/twoUserPollFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeUserPollFragment"
+        android:name="com.free.fast.date.flirt.meeting.app.user_poll.ThreeUserPollFragment"
+        android:label="fragment_three_user_poll"
+        tools:layout="@layout/fragment_three_user_poll" >
+        <action
+            android:id="@+id/action_threeUserPollFragment_to_fourUserPollFragment"
+            app:destination="@id/fourUserPollFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourUserPollFragment"
+        android:name="com.free.fast.date.flirt.meeting.app.user_poll.FourUserPollFragment"
+        android:label="FourUserPollFragment" >
+        <action
+            android:id="@+id/action_fourUserPollFragment_to_termsFragment"
+            app:destination="@id/termsFragment" />
+        <action
+            android:id="@+id/action_fourUserPollFragment_to_policyFragment"
+            app:destination="@id/policyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/termsFragment"
+        android:name="com.free.fast.date.flirt.meeting.app.user_poll.TermsFragment"
+        android:label="TermsFragment" />
+    <fragment
+        android:id="@+id/policyFragment"
+        android:name="com.free.fast.date.flirt.meeting.app.user_poll.PolicyFragment"
+        android:label="fragment_policy"
+        tools:layout="@layout/fragment_policy" />
+</navigation>
